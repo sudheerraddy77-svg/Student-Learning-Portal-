@@ -65,21 +65,30 @@ alert("Registration successful");
 window.location.href = "login.html";
 }
 // ---------------- LOGIN ----------------
-function login() {
-let users = JSON.parse(localStorage.getItem("users")) || [];
-const username = document.getElementById("username").value;
-const password = document.getElementById("password").value;
-const valid = users.find(u => u.username === username && u.password ===
-password);
-if (valid) {
-    localStorage.setItem("currentUser", username);
+function login(event) {
 
-    alert("Login successful");
-    window.location.replace("index.html");
-} else {
-    alert("Invalid credentials");
-}
+    if (event) event.preventDefault();
+
+    let users = JSON.parse(localStorage.getItem("users")) || [];
+
+    const username = document.getElementById("username").value.trim();
+    const password = document.getElementById("password").value.trim();
+
+    const valid = users.find(
+        u => u.username === username && u.password === password
+    );
+
+    if (valid) {
+        localStorage.setItem("currentUser", username);
+
+        alert("Login successful");
+
+        window.location.href = "index.html";
+    } else {
+        alert("Invalid credentials");
+    }
 };
+
 function logout() {
     localStorage.removeItem("currentUser");
     window.location.replace("login.html");
