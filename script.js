@@ -216,23 +216,23 @@ document.getElementById("button").innerHTML =
 const video = document.getElementById("courseVideo");
 
 if(course === "html-fundamental"){
-    video.src = "videos/html.mp4";
+    video.src = "https://youtu.be/TIRRNHfcjl8?si=llGThyQ0gz-bn8Gp";
 }
 
 else if(course === "css"){
-    video.src = "videos/css.mp4";
+    video.src = "https://youtu.be/Oi9QvyK8zvk?si=LnjNCDEhLuqZr3Lf";
 }
 
 else if(course === "java-script"){
-    video.src = "videos/javascript.mp4";
+    video.src = "https://youtu.be/W6NZfCO5SIk?si=7va1PY2xsyeiEPI3";
 }
 
 else if(course === "Python Programming"){
-    video.src = "videos/python.mp4";
+    video.src = "https://youtu.be/fHKPQEVCX-s?si=mQ5I6lchF1lWvf0a";
 }
 
 else if(course === "Java Programming"){
-    video.src = "videos/java.mp4";
+    video.src = "https://youtu.be/d530rd7m_1E?si=xzBj14MdCYVJOmwj";
 }
 //--------learning-section------
 function showLearning() {
