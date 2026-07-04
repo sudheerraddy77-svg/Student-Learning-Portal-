@@ -22,7 +22,7 @@ const img = document.getElementById("courseimage");
     if (document.getElementById("courseTitle")) {
 
         if (course === "html-fundamental") {
-          img.src = "Src/html2.png";
+          img.src = "html1.png";
             document.getElementById("courseTitle").innerHTML = "HTML Fundamental";
             document.getElementById("description").innerHTML =
                 "Learn the fundamentals of HTML and build the structure of web pages. This course covers HTML elements, forms, tables, semantic tags, and multimedia. By the end of the course, you will be able to create responsive and well-structured web pages.";
@@ -41,7 +41,7 @@ document.getElementById("button").innerHTML =
 '<a href="learning.html"><button onclick="showLearning()">Start Learning</button></a>';
 }
         else if (course === "css") {
-          img.src = "Src/css.png";
+          img.src = "css1.png";
             document.getElementById("courseTitle").innerHTML = "🎨 CSS Mastery ";
             document.getElementById("description").innerHTML =
                 "Learn how to design attractive and responsive websites using CSS. This course covers colors, fonts, Flexbox, Grid, animations, and responsive layouts to create modern web pages.";
@@ -60,7 +60,7 @@ document.getElementById("button").innerHTML =
 '<a href="learning.html"><button onclick="showLearning()">Start Learning</button></a';
         }
         else if (course === "java-script") {
-          img.src = "Src/js.png";
+          img.src = "js1.png";
             document.getElementById("courseTitle").innerHTML = "⚙️ JavaScript Essentials";
             document.getElementById("description").innerHTML =
                 "Learn the basics of JavaScript and make websites interactive. This course covers variables, functions, loops, DOM manipulation, events, and simple projects to strengthen your programming skills.";
@@ -80,7 +80,7 @@ document.getElementById("button").innerHTML =
         }
 
         else if (course === "Java Programming") {
-          img.src = "Src/java2.png";
+          img.src = "java1.png";
             document.getElementById("courseTitle").innerHTML = "Java Programming";
             document.getElementById("description").innerHTML =
                 "Learn the fundamentals of Java programming and build a strong foundation in object-oriented programming. This course covers variables, loops, classes, objects, inheritance, exception handling, and file handling with practical examples and mini projects.";
@@ -100,7 +100,7 @@ document.getElementById("button").innerHTML =
         }
 
         else if (course === "Python Programming") {
-          img.src="Src/python3.jpg";
+          img.src="python1.jpg";
             document.getElementById("courseTitle").innerHTML = "Python Programming";
             document.getElementById("description").innerHTML =
                 "Learn Python programming from the basics to build a strong programming foundation. This course includes variables, loops, functions, file handling, and problem-solving with practical examples.";
