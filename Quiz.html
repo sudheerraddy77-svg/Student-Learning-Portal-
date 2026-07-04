@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Student Learning Portal</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body id="home">
+<header>
+<h3>Learning <br>Portal </h3>
+
+<nav>
+<a id="hamburger" onclick="hamburger()">&#9776;</a>
+<a href="home.html">Home</a>
+<a href="home.html#explore">Course</a>
+<a href="about.html">About</a>
+<h4 title="profile" onclick="profile()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24
+24" title="profile"><g fill="none" stroke="currentColor" stroke-linecap="round"
+stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="8" r="5"/><path
+d="M20 21a8 8 0 0 0-16 0"/></g></svg></h4>
+</nav>
+
+<div id="options">
+<a href="Quiz.html">Quiz</a>
+<a href="assignment.html">Assignment</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="about.html">About</a>
+<a href="Contact.html">Contact</a>
+</div>
+<div id="profile-options">
+  <a href="profile.html">Profile</a>
+  <a href="logout.html">Logout</a>
+  <a href="login.html">Login</a>
+</div>
+</header>
+<section class="container">
+  <div class="div">
+<h2>Quiz</h2>
+<p id="result" class="quiz-p">Result:</p>
+
+<p>1. HTML stands for?</p>
+<label><input type="radio" name="q1" value="1" class="quiz"> Hyper Text Markup Language</label><br>
+<label><input type="radio" name="q1" value="0" class="quiz"> High Transfer Machine Language</label><br>
+<button onclick="checkQuiz()">Submit Quiz</button>
+<p>2. CSS is used for?</p>
+<label><input type="radio" name="q2" value="1" class="quiz"> Styling Web Pages</label><br>
+<label><input type="radio" name="q2" value="0" class="quiz"> Database Management</label><br>
+<button onclick="checkQuiz()">Submit Quiz</button>
+<p>3. JavaScript is used for?</p>
+<label><input type="radio" name="q3" value="1" class="quiz"> Making Web Pages Interactive</label><br>
+<label><input type="radio" name="q3" value="0" class="quiz"> Creating Tables</label><br>
+<button onclick="checkQuiz()">Submit Quiz</button>
+<p>4. Python is a?</p>
+<label><input type="radio" name="q4" value="1" class="quiz"> Programming Language</label><br>
+<label><input type="radio" name="q4" value="0" class="quiz"> Web Browser</label><br>
+<button onclick="checkQuiz()">Submit Quiz</button>
+<p>5. Java is?</p>
+<label><input type="radio" name="q5" value="1" class="quiz"> Object-Oriented Programming Language</label><br>
+<label><input type="radio" name="q5" value="0" class="quiz"> Operating System</label><br>
+<button onclick="checkQuiz()">Submit Quiz</button>
+<p id="result"></p>
+</div>
+</section>
+<script src="script.js"></script>
+</body></html>
