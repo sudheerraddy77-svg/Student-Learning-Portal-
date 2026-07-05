@@ -285,19 +285,19 @@ const video = document.getElementById("courseVideo");
 
 if(video){
     if(course === "html-fundamental"){
-        video.src = "https://youtu.be/TIRRNHfcjl8?si=i5zprjQE2joUy1MD";
+        video.src = "https://youtu.be/embed/TIRRNHfcjl8";
     }
     else if(course === "css"){
-        video.src = "https://youtu.be/Oi9QvyK8zvk?si=d7htXN5jeI9aqK5Q";
+        video.src = "https://youtu.be/embed/Oi9QvyK8zvk";
     }
     else if(course === "java-script"){
-        video.src = "https://youtu.be/lfmg-EJ8gm4?si=6cgWJFfgiS_dol3I";
+        video.src = "https://youtu.be/embed/lfmg-EJ8gm4";
     }
     else if(course === "Python Programming"){
-        video.src = "https://youtu.be/UrsmFxEIp5k?si=lCU23oolaV2pebmh";
+        video.src = "https://youtu.be/embed/UrsmFxEIp5k";
     }
     else if(course === "Java Programming"){
-        video.src = "https://youtu.be/xTtL8E4LzTQ?si=dF-eYotxeExRl_G9";
+        video.src = "https://youtu.be/embed/xTtL8E4LzTQ";
     }
 }
 }
